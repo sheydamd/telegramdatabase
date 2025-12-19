@@ -1,5 +1,5 @@
 from telegram import Update, ForceReply
-from telegram.ext importApplicationBuilder, CommmandHandler, ContextTypes,  MessageHandler, filters
+from telegram.ext import ApplicationBuilder, CommmandHandler, ContextTypes,  MessageHandler, filters
 import sqlite3
 from datatime
 import logging
