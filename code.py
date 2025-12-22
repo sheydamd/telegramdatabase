@@ -81,7 +81,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # اجرای برنامه
 def main():
-    application = ApplicationBuilder().token("7660968231:AAE_zU2W0XBquoyrO22VtADv2s987v16OrM").build()
+    application = ApplicationBuilder().token("your token").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
